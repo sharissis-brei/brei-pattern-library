@@ -1,0 +1,9 @@
+<ul class="social-media-icons">
+	{{#each social-media-icons}}
+		<li>
+			<a href="{{this.link}}" title="{{{this.title}}}" class="{{this.icon-class}}">
+				<span>{{{this.title}}}</span>
+			</a>
+		</li>
+	{{/each}}
+</ul>

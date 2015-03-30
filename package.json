@@ -1,0 +1,23 @@
+{
+  "name": "brei-pattern-library",
+  "version": "1.0.0",
+  "description": "An importable pattern library for Barkley REI static coding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDillon522/brei-pattern-library.git"
+  },
+  "keywords": [
+    "pattern",
+    "library"
+  ],
+  "author": "Joseph Dillon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDillon522/brei-pattern-library/issues"
+  },
+  "homepage": "https://github.com/JDillon522/brei-pattern-library"
+}
