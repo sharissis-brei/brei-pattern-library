@@ -4,7 +4,8 @@
   "description": "An importable pattern library for Barkley REI static coding.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "buildJSON": "./lib/buildJSON.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/JDillon522/brei-pattern-library/issues"
   },
-  "homepage": "https://github.com/JDillon522/brei-pattern-library"
+  "homepage": "https://github.com/JDillon522/brei-pattern-library",
+  "devDependencies": {
+    "node-dir": "^0.1.6",
+    "pre-commit": "^1.0.6"
+  },
+  "pre-commit": {
+    "buildJSON"
+  }
 }
