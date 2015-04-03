@@ -23,8 +23,7 @@
   "homepage": "https://github.com/JDillon522/brei-pattern-library",
   "devDependencies": {
     "git-scripts": "^0.2.1",
-    "node-dir": "^0.1.6",
-    "pre-commit": "^1.0.6"
+    "node-dir": "^0.1.6"
   },
   "pre-commit": [],
   "git": {
