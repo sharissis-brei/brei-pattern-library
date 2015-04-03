@@ -29,7 +29,7 @@
   "pre-commit": [],
   "git": {
     "scripts": {
-      "post-commit": "buildJSON"
+      "post-commit": "node ./lib/buildJSON.js"
     }
   }
 }
