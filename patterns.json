@@ -1,1 +1,1 @@
-{"partials":["social-media-icons","test-pattern-partial"],"modules":["test-pattern-module","basic-footer"],"templates":["test-pattern-template"]}
+{"partials":["social-media-icons","test-pattern-partial"],"modules":["basic-footer","test-pattern-module"],"templates":["test-pattern-template"]}
