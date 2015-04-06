@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var nodeCompass = require('node-compass')({
   mode: 'expanded'
 });
+var buildScss = require('./lib/buildScss.js');
 var routes = require('./routes/index');
 
 var app = express();
@@ -18,10 +19,16 @@ app.set('view engine', 'hbs');
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(nodeCompass);
-
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+
+app.use(function(req, res, next) {
+  // Auto generate scss files.
+  // DOESNT WORK WELL
+  // Doesnt refresh scss on file change
+  buildScss();
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
